@@ -113,9 +113,10 @@
       </div>
     </div>
 </section>
+
 <section id="work">
-    <div class="work">
-      <h1>Work</h1>
+    <div class="container">
+      <h1 class="section-title">Work</h1>
       <div class="work-item">
         <h3>Work Experience</h3>
         <h4>Intern - ICT Department</h4>
@@ -141,11 +142,11 @@
     </div>
 </section>
 <section id="skills">
-  <div class="skills">
-    <h1>Skills</h1>
-  </div>
   <div class="container">
-        <h1>My Skills</h1>
+    <h1 class="section-title">Skills</h1>
+  </div>
+  <div class="skills-content">
+        <h2>My Skills</h2>
         <div class="skill">
             <div class="skill-name">HTML</div>
             <div class="progress">
@@ -179,7 +180,7 @@
     </div>
 </section>
 <section id="projects">
-    <h2>Projects</h2>
+    <h1 class="section-title">Projects</h1>
     <div class="project" id="project-1">
       <h4>KNSMS Project</h4>
     </div>
@@ -192,31 +193,22 @@
 </section>
 
 <section id="contact">
-  <div class="contact">
-    <h1>Contact Me</h1>
-  </div>
-  <div class="contact-form">
-    <!-- <form action="mailto:otienomartin00@email.com" method="post" enctype="text/plain"></form> -->
-    <form action="#" method="#">
-      <input type="text" id="name" name="name" required placeholder="Your Name:"><br><br>
-      <input type="email" id="email" name="email" required placeholder="Your Email:"><br><br>
-      <input type="text" id="subject" name="subject" required placeholder="Subject:"><br><br>
-      <textarea id="message" name="message" rows="4" required placeholder="Message:"></textarea><br><br>
-      <input type="submit" value="Send">
-  </form>
+  <div class="container">
+    <div class="contact">
+      <h1 class="section-title">Contact Me</h1>
+    </div>
+    <div class="contact-form">
+      <!-- <form action="mailto:otienomartin00@email.com" method="post" enctype="text/plain"></form> -->
+      <form action="#" method="#">
+        <input type="text" id="name" name="name" required placeholder="Your Name:"><br><br>
+        <input type="email" id="email" name="email" required placeholder="Your Email:"><br><br>
+        <input type="text" id="subject" name="subject" required placeholder="Subject:"><br><br>
+        <textarea id="message" name="message" rows="4" required placeholder="Message:"></textarea><br><br>
+        <input type="submit" value="Send">
+    </form>
+    </div>
   </div>
 </section>
 </main>
-
-<script>
-  document.querySelectorAll('.nav-link').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-          e.preventDefault();
-          document.querySelector(this.getAttribute('href')).scrollIntoView({
-              behavior: 'smooth'
-          });
-      });
-  });
-</script>
 </body>
 </html>
