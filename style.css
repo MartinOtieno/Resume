@@ -212,27 +212,29 @@ margin-top: 30px;
     max-width: 800px;
     margin-left: 20;
 }
-.skill {
-    /* margin-left: 20px; */
+.skills-content {
+    margin-left: 20px;
+    background-color:rgb(189, 184, 184) ;
+    padding: 20px;
 }
-
+.skills{
+    padding-bottom: 20px;
+}
 .skill-name {
     font-weight: bold;
 }
-
 .progress {
-    background-color: #f3f3f3;
+    background-color: #ffff;
     border-radius: 5px;
     overflow: hidden;
     margin-top: 5px;
+    /* padding: 20px; */
 }
-
 .progress-bar {
     height: 10px;
     border-radius: 5px;
 }
-
-.html { width: 90%; background-color: #e34c26; }
+.html { width: 98%; background-color: #e34c26; }
 .css { width: 85%; background-color: #264de4; }
 .javascript { width: 75%; background-color: #f0db4f; }
 .php { width: 70%; background-color: #8993be; }
@@ -248,11 +250,14 @@ margin-top: 30px;
 #contact .contact-form {
     text-align: center;
 }
-
 .container-contact {
     display: inline;
     align-items: flex-start;
     padding: 50px 0;
+  }
+  .contact{
+    text-align: center;
+    margin-left: 20px;
   }
   .whole{
     display: flex;
