@@ -34,21 +34,23 @@ header nav ul {
 }
 header nav ul li {
     display: block;
-    padding: 5px;
     margin: 10px;
-    background:none;
-    font-size: 1.0rem;
-    border-radius: 5rem; 
+    
 }
-header nav ul li:hover{
+header nav ul li a:hover{
     background-color: #fff;
-    color: #fff;
+    color: #264de4;
 }
 header nav ul li a {
     text-decoration: none;
     color: #000;
     display: flex;
     align-items: center;
+    padding: 5px;
+    background-color: #ccc;
+    font-size: 1.0rem;
+    border-radius: 5rem; 
+    
 }
 header nav ul li a i {
     margin-right: 15px;
@@ -63,14 +65,15 @@ footer {
 
 footer .social-links {
     margin: 10px 0;
+    margin-top: 20px;
 }
-
 footer .social-links a {
     margin: 0 5px;
     text-decoration: none;
     color: #000;
     font-size: 16px;
     transition: color 0.3s ease;
+    background-color: #fff;
 }
 footer .social-links a:hover {
     color: #ddd;
@@ -241,12 +244,41 @@ margin-top: 30px;
 .laravel { width: 65%; background-color: #ff2d20; }
 
 /* Projects Section */
-#projects .project {
+#projects{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
-
-/* Contact Section */
+#projects {
+    text-align: center;
+    margin: 20px;
+}
+.projects-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.project {
+    border: 1px solid #ccc;
+    background-color: #8993be;
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project img{
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+.project p{
+    color: #fff;
+}
+.project h4 {
+    margin: 0;
+}
 #contact .contact-form {
     text-align: center;
 }
