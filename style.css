@@ -2,13 +2,13 @@
 body, html {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 .container {
     display: flex;
 }
 header {
-    width: 250px;
+    width: 300px;
     background-color: #4706df81;
     height: 100vh;
     position: fixed;
@@ -81,7 +81,7 @@ footer .copyright {
     font-size: 14px;
 }
 main {
-    margin-left: 250px;
+    margin-left: 300px;
     padding: 20px;
 }
 main section {
@@ -107,27 +107,31 @@ section {
 }
 .home-content h1{
     font-size: 38px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: bold;
 }
 span{
     color: #264de4;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
 }
-.btn-danger {
+.btn-download {
     background-color: blue;
-    color: #fff;
-    border: none;
+    color: white;
     padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    list-style: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 2px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 70px;
 }
-.btn-danger:hover {
-    background-color: rgb(85, 85, 245);
+.btn-download:hover {
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
 }
 .bg-photo{
     width: 500px;
@@ -143,6 +147,7 @@ span{
 .container {
    display: inline; 
    padding-right: 10px;
+   margin-bottom: 20px;
 }
 .section-title {
 text-align: center;
@@ -193,6 +198,12 @@ margin-top: 30px;
     height: auto;
     margin-top:20px ;
     border-radius: 10px;
+}
+.content-details h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 18px;
 }
 /* Education Section */
 #education{
